@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.category, .local-image {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.category img, .local-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.local-image p {
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.local-image a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.local-image a:hover {
+    text-decoration: underline;
+}
